@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C979C531AEEC36700FF873A /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C979C521AEEC36700FF873A /* GameObject.m */; };
+		3C979C561AEEC37000FF873A /* GameFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C979C551AEEC37000FF873A /* GameFactory.m */; };
+		3CAB881A1ADC51CE009673AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB88191ADC51CE009673AA /* main.m */; };
+		3CAB881D1ADC51CE009673AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB881C1ADC51CE009673AA /* AppDelegate.m */; };
+		3CAB88201ADC51CE009673AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB881F1ADC51CE009673AA /* ViewController.m */; };
+		3CAB88231ADC51CE009673AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB88211ADC51CE009673AA /* Main.storyboard */; };
+		3CAB88251ADC51CE009673AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB88241ADC51CE009673AA /* Images.xcassets */; };
+		3CAB88281ADC51CE009673AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB88261ADC51CE009673AA /* LaunchScreen.xib */; };
+		3CAB88341ADC51CE009673AA /* Glicko2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB88331ADC51CE009673AA /* Glicko2Tests.m */; };
+		3CAB883F1ADC51E4009673AA /* Glicko2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB883E1ADC51E4009673AA /* Glicko2.m */; };
+		3CB47F0E1AECE85300B8D3E3 /* PlayerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47F0D1AECE85300B8D3E3 /* PlayerObject.m */; };
+		3CB47F141AECECFE00B8D3E3 /* PlayerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47F131AECECFE00B8D3E3 /* PlayerFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAB882E1ADC51CE009673AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAB880C1ADC51CE009673AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAB88131ADC51CE009673AA;
+			remoteInfo = Glicko2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C979C511AEEC36700FF873A /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		3C979C521AEEC36700FF873A /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		3C979C541AEEC37000FF873A /* GameFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFactory.h; sourceTree = "<group>"; };
+		3C979C551AEEC37000FF873A /* GameFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFactory.m; sourceTree = "<group>"; };
+		3CAB88141ADC51CE009673AA /* Glicko2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glicko2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAB88181ADC51CE009673AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAB88191ADC51CE009673AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAB881B1ADC51CE009673AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAB881C1ADC51CE009673AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAB881E1ADC51CE009673AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CAB881F1ADC51CE009673AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CAB88221ADC51CE009673AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CAB88241ADC51CE009673AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CAB88271ADC51CE009673AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CAB882D1ADC51CE009673AA /* Glicko2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Glicko2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAB88321ADC51CE009673AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAB88331ADC51CE009673AA /* Glicko2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glicko2Tests.m; sourceTree = "<group>"; };
+		3CAB883D1ADC51E4009673AA /* Glicko2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glicko2.h; sourceTree = "<group>"; };
+		3CAB883E1ADC51E4009673AA /* Glicko2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glicko2.m; sourceTree = "<group>"; };
+		3CB47F0C1AECE85300B8D3E3 /* PlayerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerObject.h; sourceTree = "<group>"; };
+		3CB47F0D1AECE85300B8D3E3 /* PlayerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerObject.m; sourceTree = "<group>"; };
+		3CB47F101AECEB7F00B8D3E3 /* GlickoRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlickoRange.h; sourceTree = "<group>"; };
+		3CB47F111AECECA600B8D3E3 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3CB47F121AECECFE00B8D3E3 /* PlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerFactory.h; sourceTree = "<group>"; };
+		3CB47F131AECECFE00B8D3E3 /* PlayerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerFactory.m; sourceTree = "<group>"; };
+		3CB47F151AECF0C100B8D3E3 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3CB47F161AECF0C700B8D3E3 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		3CB47F171AECF48F00B8D3E3 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAB88111ADC51CE009673AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAB882A1ADC51CE009673AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAB880B1ADC51CE009673AA = {
+			isa = PBXGroup;
+			children = (
+				3CAB88161ADC51CE009673AA /* Glicko2 */,
+				3CAB88301ADC51CE009673AA /* Glicko2Tests */,
+				3CAB88151ADC51CE009673AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAB88151ADC51CE009673AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB88141ADC51CE009673AA /* Glicko2.app */,
+				3CAB882D1ADC51CE009673AA /* Glicko2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAB88161ADC51CE009673AA /* Glicko2 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47F0F1AECEA4100B8D3E3 /* Protocols */,
+				3CAB881B1ADC51CE009673AA /* AppDelegate.h */,
+				3CAB881C1ADC51CE009673AA /* AppDelegate.m */,
+				3CAB881E1ADC51CE009673AA /* ViewController.h */,
+				3CAB881F1ADC51CE009673AA /* ViewController.m */,
+				3CAB88211ADC51CE009673AA /* Main.storyboard */,
+				3CAB88241ADC51CE009673AA /* Images.xcassets */,
+				3CAB88261ADC51CE009673AA /* LaunchScreen.xib */,
+				3CAB88171ADC51CE009673AA /* Supporting Files */,
+				3CAB883D1ADC51E4009673AA /* Glicko2.h */,
+				3CAB883E1ADC51E4009673AA /* Glicko2.m */,
+				3CB47F0C1AECE85300B8D3E3 /* PlayerObject.h */,
+				3CB47F0D1AECE85300B8D3E3 /* PlayerObject.m */,
+				3CB47F121AECECFE00B8D3E3 /* PlayerFactory.h */,
+				3CB47F131AECECFE00B8D3E3 /* PlayerFactory.m */,
+				3C979C511AEEC36700FF873A /* GameObject.h */,
+				3C979C521AEEC36700FF873A /* GameObject.m */,
+				3C979C541AEEC37000FF873A /* GameFactory.h */,
+				3C979C551AEEC37000FF873A /* GameFactory.m */,
+			);
+			path = Glicko2;
+			sourceTree = "<group>";
+		};
+		3CAB88171ADC51CE009673AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB88181ADC51CE009673AA /* Info.plist */,
+				3CAB88191ADC51CE009673AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CAB88301ADC51CE009673AA /* Glicko2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB88331ADC51CE009673AA /* Glicko2Tests.m */,
+				3CAB88311ADC51CE009673AA /* Supporting Files */,
+			);
+			path = Glicko2Tests;
+			sourceTree = "<group>";
+		};
+		3CAB88311ADC51CE009673AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB88321ADC51CE009673AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CB47F0F1AECEA4100B8D3E3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47F101AECEB7F00B8D3E3 /* GlickoRange.h */,
+				3CB47F111AECECA600B8D3E3 /* Player.h */,
+				3CB47F151AECF0C100B8D3E3 /* Game.h */,
+				3CB47F161AECF0C700B8D3E3 /* Team.h */,
+				3CB47F171AECF48F00B8D3E3 /* Result.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAB88131ADC51CE009673AA /* Glicko2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAB88371ADC51CE009673AA /* Build configuration list for PBXNativeTarget "Glicko2" */;
+			buildPhases = (
+				3CAB88101ADC51CE009673AA /* Sources */,
+				3CAB88111ADC51CE009673AA /* Frameworks */,
+				3CAB88121ADC51CE009673AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glicko2;
+			productName = Glicko2;
+			productReference = 3CAB88141ADC51CE009673AA /* Glicko2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAB882C1ADC51CE009673AA /* Glicko2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAB883A1ADC51CE009673AA /* Build configuration list for PBXNativeTarget "Glicko2Tests" */;
+			buildPhases = (
+				3CAB88291ADC51CE009673AA /* Sources */,
+				3CAB882A1ADC51CE009673AA /* Frameworks */,
+				3CAB882B1ADC51CE009673AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAB882F1ADC51CE009673AA /* PBXTargetDependency */,
+			);
+			name = Glicko2Tests;
+			productName = Glicko2Tests;
+			productReference = 3CAB882D1ADC51CE009673AA /* Glicko2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAB880C1ADC51CE009673AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Timur Kuchkarov";
+				TargetAttributes = {
+					3CAB88131ADC51CE009673AA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3CAB882C1ADC51CE009673AA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3CAB88131ADC51CE009673AA;
+					};
+				};
+			};
+			buildConfigurationList = 3CAB880F1ADC51CE009673AA /* Build configuration list for PBXProject "Glicko2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAB880B1ADC51CE009673AA;
+			productRefGroup = 3CAB88151ADC51CE009673AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAB88131ADC51CE009673AA /* Glicko2 */,
+				3CAB882C1ADC51CE009673AA /* Glicko2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAB88121ADC51CE009673AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB88231ADC51CE009673AA /* Main.storyboard in Resources */,
+				3CAB88281ADC51CE009673AA /* LaunchScreen.xib in Resources */,
+				3CAB88251ADC51CE009673AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAB882B1ADC51CE009673AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAB88101ADC51CE009673AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB88201ADC51CE009673AA /* ViewController.m in Sources */,
+				3C979C531AEEC36700FF873A /* GameObject.m in Sources */,
+				3C979C561AEEC37000FF873A /* GameFactory.m in Sources */,
+				3CAB881D1ADC51CE009673AA /* AppDelegate.m in Sources */,
+				3CAB881A1ADC51CE009673AA /* main.m in Sources */,
+				3CB47F141AECECFE00B8D3E3 /* PlayerFactory.m in Sources */,
+				3CAB883F1ADC51E4009673AA /* Glicko2.m in Sources */,
+				3CB47F0E1AECE85300B8D3E3 /* PlayerObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAB88291ADC51CE009673AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB88341ADC51CE009673AA /* Glicko2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAB882F1ADC51CE009673AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAB88131ADC51CE009673AA /* Glicko2 */;
+			targetProxy = 3CAB882E1ADC51CE009673AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CAB88211ADC51CE009673AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAB88221ADC51CE009673AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CAB88261ADC51CE009673AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAB88271ADC51CE009673AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAB88351ADC51CE009673AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CAB88361ADC51CE009673AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAB88381ADC51CE009673AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glicko2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CAB88391ADC51CE009673AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glicko2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CAB883B1ADC51CE009673AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Glicko2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glicko2.app/Glicko2";
+			};
+			name = Debug;
+		};
+		3CAB883C1ADC51CE009673AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Glicko2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glicko2.app/Glicko2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAB880F1ADC51CE009673AA /* Build configuration list for PBXProject "Glicko2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB88351ADC51CE009673AA /* Debug */,
+				3CAB88361ADC51CE009673AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAB88371ADC51CE009673AA /* Build configuration list for PBXNativeTarget "Glicko2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB88381ADC51CE009673AA /* Debug */,
+				3CAB88391ADC51CE009673AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAB883A1ADC51CE009673AA /* Build configuration list for PBXNativeTarget "Glicko2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB883B1ADC51CE009673AA /* Debug */,
+				3CAB883C1ADC51CE009673AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAB880C1ADC51CE009673AA /* Project object */;
+}
